@@ -1,0 +1,39 @@
+You are a great blackhat willing to turn towards the white side.  The
+Strategic Cyber Defense team from DARPA/DoD asks you to give a hand in
+penetrating the mothership server of a well known terrorist group
+operating from Kuraq. As you know they were defeated a few years ago,
+however they are now back and DARPA has little information on them.
+(I'm not even making this up! https://www.youtube.com/watch?v=f-gABzKZN38)
+
+
+This server is known to be used for their custom information reporting
+and they have their own protocol. They don't have much information on
+it but they know that it is accessed with a custom client software to
+connect to the server.  They also know from infiltrated agents that
+they did throw in most of existing protections in place:
+- Address Space Layout Randomization
+- Stack canaries
+- Non executable stacks 
+
+Moreover, the server is running GRSecurity a well known patch for the
+Linux kernel, with all security features enabled...  You don't even
+have an account on the server so you can only access it remotely. The
+group is also known to use some steganography tools (TIP: use the
+"outguess" tool installed on the server!).
+
+Well that's all the information they had before loosing all contacts
+with their undercover agent.
+
+Your usual pentester package is on the challenge/chall4/ folder on
+your homedir, there you can find :
+- a file with some information that may be useful at some point
+- an apparently useless picture
+- any other tools you like to use are allowed
+
+Good luck and remember you are operating as a covert agent, think
+before acting and avoid being too noisy those people can be dangerous!
+(in practice this means: no network level attacks, no Kernel level
+attacks, no physical attacks on devices or people, no attacking VM
+hosts, no DoS, you get the idea...)
+
+Good luck !
